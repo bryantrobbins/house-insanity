@@ -17,6 +17,13 @@ test('', async t => {
     .click(Selector('li').withText('Madison, AL (County)'));
   card = await Selector('.gallery-listingphoto');
 
+  // Add Limestone County
+  await t
+    .typeText('#criteria-location-input', 'Limestone, AL (County)')
+    .click(Selector('li').withText('Limestone, AL (County)'));
+  card = await Selector('.gallery-listingphoto');
+
+
   // Expand 'Refine Search' Panel
   await t
     .click('#mapsearch-criteria-header > a');
