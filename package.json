@@ -1,0 +1,22 @@
+{
+  "name": "house-insanity",
+  "version": "1.0.0",
+  "description": "Some automation around a really old mls site because I am obsessed with knowing about the right houses.",
+  "main": "test1.js",
+  "scripts": {
+    "start": "testcafe chrome extract.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryantrobbins/house-insanity.git"
+  },
+  "author": "Bryan Robbins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryantrobbins/house-insanity/issues"
+  },
+  "homepage": "https://github.com/bryantrobbins/house-insanity#readme",
+  "dependencies": {
+    "testcafe": "^0.19.2"
+  }
+}
